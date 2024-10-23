@@ -1,12 +1,28 @@
 /* Styles for Mobile Site */
-
+h1 {
+    color: #49DEAE;
+}
+body {
+    background-color: #497DDE;
+}
 /* Header & Hero */
+header {
+    color: #B89B44;
+    font-family: Poppins, "Times New Roman", serif;
+    font-size: large;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
 
 /* Projects */
 
 /* Reviews */
 
 /* Footer */
+footer {
+    text-align: center;
+}
 
 
 /* Media state for Desktop site */
