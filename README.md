@@ -11,3 +11,6 @@ Put your images in:
 Put your code in:
 
 > index.html
+
+Sources:
+Images generated from: https://deepai.org/machine-learning-model/text2img
