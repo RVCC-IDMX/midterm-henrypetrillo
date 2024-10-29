@@ -7,15 +7,42 @@ body {
 }
 /* Header & Hero */
 header {
-    color: #B89B44;
     font-family: Poppins, "Times New Roman", serif;
     font-size: large;
-    border: 2px solid black;
+    border: 2px solid #49DE7C;
     text-align: center;
     margin-bottom: 0.5em;
 }
 
+header img {
+    width: 100%;
+    max-width: 100px;
+}
+
+header p {
+    color: #49DEAE
+}
+
 /* Projects */
+#projects {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+#projects img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image within its container */
+}
+
+#projects h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* Reviews */
 
@@ -31,6 +58,9 @@ footer {
     /* Header & Hero */
 
     /* Projects */
+    #projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     /* Reviews */
 
