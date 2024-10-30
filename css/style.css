@@ -1,16 +1,17 @@
 /* Styles for Mobile Site */
 h1 {
-    color: #49DEAE;
+    color: #01AAF5;
 }
 body {
-    background-color: #497DDE;
+    background-color: #01AAF5;
 }
 
 /* Header & Hero */
 header {
     font-family: Poppins, "Times New Roman", serif;
     font-size: large;
-    border: 2px solid #49DE7C;
+    border: 2px solid #0024F0;
+    background-color: #85FFAC;
     text-align: center;
     margin-bottom: 0.5em;
     border-radius: 10px;
@@ -22,7 +23,7 @@ header img {
 }
 
 header p {
-    color: #49DEAE
+    color: #01AAF5
 }
 
 /* Projects */
@@ -31,7 +32,8 @@ header p {
     gap: 20px;
     padding: 0 20px;
     text-align: center;
-    border: 5px solid #49DE7C;
+    border: 2px solid #0024F0;
+    background-color: #85FFAC;
     border-radius: 10px;
 }
 
@@ -44,18 +46,18 @@ header p {
 }
 
 #projects h2 {
-    color: #49DEAE;
+    color: #D200EF;
     grid-column: 1 / -1;
     text-align: center;
     margin-bottom: 20px;
 }
 
 #projects h3 {
-    color: #49DEAE;
+    color: #D200EF;
 }
 
 #projects p {
-    color: #49DEAE;
+    color: #D200EF;
 }
 
 /* Reviews */
@@ -64,14 +66,14 @@ header p {
     gap: 20px;
     padding: 0 20px;
     text-align: center;
-    border: 5px solid #497DDE;
+    border: 2px solid #0024F0;
     border-radius: 15px;
-    background-color: #49DE7C;
+    background-color: #85FFAC;
     overflow: hidden;
 }
 
 .review1, .review2, .review3 {
-    border: 2px solid #497DDE;
+    border: 2px solid #0024F0;
     border-radius: 10px;
     padding: 20px;
 }
@@ -80,11 +82,11 @@ header p {
     grid-column: 1 / -1;
     text-align: center;
     margin-bottom: 20px;
-    color: #497DDE;
+    color: #F00064;
 }
 
 #reviews p {
-    color: #497DDE;
+    color: #F00064;
 }
 
 /* Footer */
@@ -104,6 +106,9 @@ footer {
     }
 
     /* Reviews */
+    #reviews {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     /* Footer */
 
