@@ -85,8 +85,14 @@ header p {
     color: #F00064;
 }
 
+#reviews h3, h4, h5 {
+    color: #F00064;
+    text-align: left;
+}
+
 #reviews p {
     color: #F00064;
+    text-align: left;
 }
 
 /* Footer */
